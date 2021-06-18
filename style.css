@@ -1,0 +1,90 @@
+@font-face {
+  font-family: DIN;
+  src: url(./assets/DIN-Regular.ttf);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
+}
+
+
+nav {
+  background-color: #FFDAC9 ;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.nav-bar-ul a{
+  text-align: center;
+font: normal normal bold 18px/52px DIN Condensed;
+letter-spacing: 0.18px;
+color: #333333;
+opacity: 1;
+text-decoration: none;
+}
+
+.logo{
+  text-align: right;
+font: normal normal bold 28px/23px DIN Condensed;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+
+.nav-bar-ul{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar-ul li {
+list-style-type: none;
+text-align: center;
+}
+
+.title{
+  text-align: center;
+font: normal normal bold 82px/95px DIN Condensed;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin-bottom: 2px;
+}
+
+.title2{
+  text-align: center;
+font: normal normal bold 115px/95px DIN Condensed;
+letter-spacing: 0px;
+color: #FFFFFF;
+margin-top: 0px;
+margin-bottom: 3px;
+}
+
+.subtitle{
+  text-align: center;
+  font: normal normal bold 35px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-top: 0px;
+}
+
+.header{
+  height: 650px;
+  background-color:#FFDAC9  ;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  position: relative;
+  }
+
+  .homepage-text{
+    
+  }
