@@ -26,7 +26,6 @@ li {
   justify-content: space-around;
   position: fixed;
   margin-top: 10px;
-  
 }
 
 .nav-bar-ul {
@@ -71,8 +70,6 @@ li {
 } */
 
 .mainpic {
-  
-  
   opacity: 1;
   top: 0.10131599754095078px;
   padding-left: 280px;
@@ -121,7 +118,7 @@ li {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .community-title {
@@ -162,6 +159,7 @@ li {
   letter-spacing: 0.5px;
   text-align: left;
   text-decoration: none;
+  
 }
 
 .text-comm {
@@ -192,7 +190,7 @@ li {
 
 .tacos-pic {
   position: absolute;
-  top: 854px;
+  top: 904px;
   left: 701px;
   width: 322px;
   height: 321px;
@@ -201,7 +199,7 @@ li {
 
 .tacos-card {
   position: absolute;
-  top: 854px;
+  top: 904px;
   left: 930px;
   width: 322px;
   height: 321px;
@@ -209,8 +207,16 @@ li {
 
 .crepes-pic {
   position: absolute;
-  top: 1194px;
-  left: 421px;
+  top: 1177px;
+  left: 351px;
+  width: 322px;
+  height: 321px;
+}
+
+.crepes-card {
+  position: absolute;
+  top: 1177px;
+  left: 126px;
   width: 322px;
   height: 321px;
 }
