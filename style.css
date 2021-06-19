@@ -13,14 +13,20 @@ li {
 }
 
 .header {
+  top: 0.1013154610991478px;
+  left: 0px;
   width: 100%;
-  background: #ffdac9;
-  padding: 1rem 0;
+  height: 768px;
+
+  background: #ffdac9 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 .navbar {
   display: flex;
   justify-content: space-around;
   position: fixed;
+  margin-top: 10px;
+  
 }
 
 .nav-bar-ul {
@@ -28,7 +34,6 @@ li {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  word-spacing: 10px;
 }
 
 .nav-bar-second {
@@ -60,19 +65,20 @@ li {
   display: flex;
   margin: 0 40px;
 }
-.mainart {
+/* .mainart {
   position: relative;
   display: inline-block;
-}
+} */
 
 .mainpic {
-  display: block;
-  position: relative;
+  
+  
   opacity: 1;
   top: 0.10131599754095078px;
-  left: 250px;
+  padding-left: 280px;
   width: 866px;
   height: 768px;
+  margin-top: 0px;
 }
 
 .stamp {
@@ -87,7 +93,7 @@ li {
 .text-main {
   position: absolute;
   top: 323px;
-  left: 477px;
+  left: 510px;
   width: 432px;
   height: 186px;
 }
@@ -170,6 +176,41 @@ li {
   opacity: 1;
 }
 
-.logo a{
-font-size: 28px;
+.logo a {
+  font-size: 28px;
+}
+
+.community-bg {
+  display: block;
+  position: relative;
+  top: 101px;
+  padding-left: 217px;
+  width: 1036px;
+  height: 377px;
+  opacity: 1;
+}
+
+.tacos-pic {
+  position: absolute;
+  top: 854px;
+  left: 701px;
+  width: 322px;
+  height: 321px;
+  opacity: 1;
+}
+
+.tacos-card {
+  position: absolute;
+  top: 854px;
+  left: 930px;
+  width: 322px;
+  height: 321px;
+}
+
+.crepes-pic {
+  position: absolute;
+  top: 1194px;
+  left: 421px;
+  width: 322px;
+  height: 321px;
 }
