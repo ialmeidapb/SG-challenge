@@ -28,6 +28,15 @@ li {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
+  word-spacing: 10px;
+}
+
+.nav-bar-second {
+  background-color: transparent;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 360px;
 }
 
 .nav-bar-ul a {
@@ -38,8 +47,19 @@ li {
   opacity: 1;
   text-decoration: none;
   display: flex;
+  margin: 0 40px;
 }
 
+.nav-bar-second a {
+  text-align: center;
+  font: normal normal bold 18px/52px DIN Condensed;
+  letter-spacing: 0.18px;
+  color: #333333;
+  opacity: 1;
+  text-decoration: none;
+  display: flex;
+  margin: 0 40px;
+}
 .mainart {
   position: relative;
   display: inline-block;
@@ -96,12 +116,13 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
-  position: relative;
 }
 
 .community-title {
   top: 848px;
-  margin-left: 300px;
+  margin-left: 419px;
+  width: 232px;
+  height: 114px;
   text-align: left;
   font: normal normal bold 52px/42px DIN Condensed;
   letter-spacing: 0px;
@@ -135,4 +156,20 @@ li {
   letter-spacing: 0.5px;
   text-align: left;
   text-decoration: none;
+}
+
+.text-comm {
+  font: normal normal bold 22px/25px DIN Condensed;
+  text-align: left;
+  top: 1025px;
+  left: 421px;
+  width: 199px;
+  height: 116px;
+  letter-spacing: 0.44px;
+  color: #333333;
+  opacity: 1;
+}
+
+.logo a{
+font-size: 28px;
 }
