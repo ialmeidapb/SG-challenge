@@ -119,6 +119,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
+  padding-bottom: 129px;
 }
 
 .community-title {
@@ -144,8 +145,8 @@ li {
 }
 
 .link-btn {
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   padding-right: 10px;
   padding-left: 10px;
   /* margin-left: 20px; */
@@ -154,12 +155,10 @@ li {
 .community-section a {
   background-color: #ffdac9;
   color: #333333;
-  font-family: DIN;
-  font-size: 18px;
-  letter-spacing: 0.5px;
+  font: normal normal bold 18px/52px DIN Condensed;
+  letter-spacing: 0.18px;
   text-align: left;
   text-decoration: none;
-  
 }
 
 .text-comm {
@@ -179,9 +178,7 @@ li {
 }
 
 .community-bg {
-  display: block;
-  position: relative;
-  top: 101px;
+  padding-top: 101px;
   padding-left: 217px;
   width: 1036px;
   height: 377px;
@@ -208,7 +205,7 @@ li {
 .crepes-pic {
   position: absolute;
   top: 1177px;
-  left: 351px;
+  left: 356px;
   width: 322px;
   height: 321px;
 }
@@ -219,4 +216,125 @@ li {
   left: 126px;
   width: 322px;
   height: 321px;
+}
+
+.community-text {
+  position: absolute;
+  top: 1536px;
+  left: 186px;
+  width: 192px;
+  height: 141px;
+  text-align: left;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #333333;
+  opacity: 1;
+}
+
+.food-card {
+  position: absolute;
+  top: 1469px;
+  left: 696px;
+  width: 322px;
+  height: 321px;
+}
+
+.food-pic {
+  position: absolute;
+  top: 1469px;
+  left: 926px;
+  width: 322px;
+  height: 321px;
+}
+
+.map {
+  padding-top: 129px;
+  left: 0px;
+  width: 100%;
+  height: 500px;
+}
+
+.map-card-title {
+  position: absolute;
+  left: 19px;
+  right: 19px;
+  width: 184px;
+  height: 62px;
+  bottom: 60px;
+  text-align: left;
+  font: normal normal bold 62px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+
+.map-card {
+  position: absolute;
+  top: 1936px;
+  left: 128px;
+  width: 220px;
+  height: 106px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.map-card-text {
+  padding-top: 45px;
+  left: 146px;
+  padding-left: 18px;
+  padding-right: 30px;
+  padding-bottom: 16px;
+  width: 172px;
+  height: 45px;
+  text-align: left;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #333333;
+  opacity: 1;
+}
+
+.our-menu {
+  top: 2348px;
+  left: 0px;
+  width: 100%;
+  height: 894px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+}
+
+.our-menu-title {
+  text-align: center;
+  font: normal normal bold 62px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  padding-top: 65px;
+  left: 584px;
+  height: 114px;
+  position: absolute;
+  text-decoration: line-through #ffdac9;
+}
+
+.our-menu-head a {
+  background-color: #ffdac9;
+  color: #333333;
+  font: normal normal bold 18px/52px DIN Condensed;
+  letter-spacing: 0.18px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn-our-menu {
+  padding-top: 120px;
+  justify-content: center;
+}
+
+.starters {
+  top: 0px;
+  padding-left: 146px;
+  width: 268px;
+  height: 894px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
