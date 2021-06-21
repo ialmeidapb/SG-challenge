@@ -108,7 +108,7 @@ li {
   font: normal normal bold 35px/52px DIN Condensed;
   letter-spacing: 0px;
   color: #ffffff;
-  opacity: 1;
+  
   margin-top: 0px;
 }
 
@@ -131,7 +131,7 @@ li {
   font: normal normal bold 52px/42px DIN Condensed;
   letter-spacing: 0px;
   color: #333333;
-  opacity: 1;
+  
 }
 
 .comm-title2 {
@@ -170,7 +170,7 @@ li {
   height: 116px;
   letter-spacing: 0.44px;
   color: #333333;
-  opacity: 1;
+  
 }
 
 .logo a {
@@ -182,7 +182,7 @@ li {
   padding-left: 217px;
   width: 1036px;
   height: 377px;
-  opacity: 1;
+  
 }
 
 .tacos-pic {
@@ -191,7 +191,7 @@ li {
   left: 701px;
   width: 322px;
   height: 321px;
-  opacity: 1;
+  
 }
 
 .tacos-card {
@@ -228,7 +228,7 @@ li {
   font: normal normal normal 15px/20px Gill Sans;
   letter-spacing: 0.15px;
   color: #333333;
-  opacity: 1;
+  
 }
 
 .food-card {
@@ -299,7 +299,7 @@ li {
   width: 100%;
   height: 894px;
   background: #f8f8f8 0% 0% no-repeat padding-box;
-  opacity: 1;
+  
   display: flex;
 }
 
@@ -308,7 +308,6 @@ li {
   font: normal normal bold 62px/52px DIN Condensed;
   letter-spacing: 0px;
   color: #333333;
-  opacity: 1;
   padding-top: 65px;
   left: 584px;
   height: 114px;
@@ -345,7 +344,7 @@ li {
   width: 268px;
   height: 894px;
   background: #f8f8f8 0% 0% no-repeat padding-box;
-  opacity: 1;
+  
 }
 
 .recipes {
@@ -354,7 +353,7 @@ li {
   width: 100%;
   height: 967px;
   background: #ffffff 0% 0% no-repeat padding-box;
-  opacity: 1;
+  
   display: flex;
   justify-content: space-around;
 }
@@ -400,14 +399,14 @@ li {
 }
 
 .r-subtitle {
-  padding-top: 91px;
+  padding-top: 150px;
   width: 476px;
   height: 35px;
   text-align: right;
   font: normal normal bold 35px/52px DIN Condensed;
   letter-spacing: 0px;
   color: #333333;
-  opacity: 1;
+  
   margin-bottom: 25px;
 }
 
@@ -419,7 +418,7 @@ li {
   text-align: left;
   text-decoration: none;
   font-size: 18px;
-  margin-left: 13px;
+  margin-left: 377px;
 }
 
 .r-link-btn-sub {
@@ -427,4 +426,23 @@ li {
   padding-bottom: 5px;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+
+
+/* Animação */
+
+[data-anime]{
+  opacity: 0;
+  transition: .5s;
+}
+
+[data-anime="bottom"]{
+  transform: translateY(-10px);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translateY(0px);
+  
 }
