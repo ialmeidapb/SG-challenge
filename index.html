@@ -32,7 +32,8 @@
 
     <!--MAIN PAGE SECTION-->
 
-    <header id="about" class="header" class="">
+    <header id="about" class="header">
+      <a class="request-button" href="#"><img src="./assets/request-btn.png" alt="request-button"></a>
       <div class="mainart">
         <img
           class="mainpic"
@@ -47,6 +48,7 @@
           <h2 class="subtitle">NOW IN LONDON</h2>
         </div>
       </div>
+     
     </header>
 
     <!--OUR COMMUNITY SECTION-->
@@ -70,9 +72,9 @@
       </div>
       <!--1st card-->
       <div id="firstCard">
-        <img class="tacos-pic animate" data-anime="bottom" src="./assets/card1.png" alt="tacos-instagram" />
+        <img class="tacos-pic" data-anime="bottom" src="./assets/card1.png" alt="tacos-instagram" />
         <img
-          class="tacos-card animate"
+          class="tacos-card"
           data-anime="bottom"
           src="./assets/text01.png"
           alt="comments-instagram"
@@ -80,15 +82,16 @@
       </div>
       <!--2nd card-->
       <div>
-      <img class="crepes-pic" src="./assets/card2.png" alt="crepes-instagram" />
+      <img class="crepes-pic" data-anime="bottom" src="./assets/card2.png" alt="crepes-instagram" />
       <img
         class="crepes-card"
+        data-anime="bottom"
         src="./assets/text02.png"
         alt="comments-instagram"
       />
     </div>
     <!--text-->
-      <div class="community-text">
+      <div class="community-text" data-anime="bottom">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute
@@ -99,10 +102,11 @@
       <div>
       <img
         class="food-card"
+        data-anime="bottom"
         src="./assets/text03.png"
         alt="comments-instagram"
       />
-      <img class="food-pic" src="./assets/card3.png" alt="food-instagram" />
+      <img class="food-pic" data-anime="bottom" src="./assets/card3.png" alt="food-instagram" />
     </section>
   </div>
     <!--MAP SECTION-->
@@ -125,15 +129,16 @@
     <!--OUR MENU SECTION-->
     <section id="our-menu" class="our-menu">
       <div class="menu">
-        <img id="starters" class="starters" src="./assets/starters.png" alt="starters" />
+        <img id="starters" data-anime="up" class="starters" src="./assets/starters.png" alt="starters" />
 
         <img
           class="main-courses"
+          data-anime="down"
           src="./assets/maincourses.png"
           alt="main-courses"
         />
-        <img class="sides" src="./assets/sides.png" alt="sides" />
-        <img class="desserts" src="./assets/desserts.png" alt="desserts" />
+        <img class="sides" data-anime="up" src="./assets/sides.png" alt="sides" />
+        <img class="desserts" data-anime="down" src="./assets/desserts.png" alt="desserts" />
       </div>
       <!--TITLE-->
       <div class="our-menu-head">
@@ -147,15 +152,43 @@
 
     <!--POPULAR RECIPES-->
     <section id="recipes" class="recipes">
+      <!--Title-->
+      <div class="recipes-header">
       <div class="recipes-title">
         <h1 class="r-title1">POPULAR</h1>
         <h1 class="r-title2">&nbsp;RECIPES&nbsp;</h1>
         <a class="r-link-btn" href="#">SEE ALL</a>
       </div>
+      <!--Subtitle-->
       <div class="recipes-subtitle">
         <p class="r-subtitle">DO YOU WANT TO SHARE YOUR OWN RECIPE?</p>
         <a class="r-link-btn-sub" href="#">SEND IT NOW</a>
       </div>
+    </div>
+      <!--Cards-->
+      <div class="cards">
+        <div class="first-card">
+        <img class="card1-pic" src="./assets/cards/pic.png" alt="sandwich">
+          <div class="serving-box">
+            
+            <h2 class="serving-box-title1">4</h2>
+            <h2 class="serving-box-title2" >SERVINGS</h2>
+          </div>
+          <div class="go-btn">
+            <a href="#"><img src="./assets/cards/go-btn.png" alt="go button"></a>
+          </div>
+          <div class="chef-stamp">
+            <img src="./assets/cards/chef-stamp.png" alt="chef-stamp">
+          </div>
+        
+          
+          <h2 class="card1-difficulty">DIFFICULTY</h2>
+          <h1 class="card1-title">CHARRED BROCCOLI & CHEAT’S VEGGIE ROMESCO TOAST</h1>
+          <p class="card1-text">Make a speedy version of romesco sauce with its famous almond and red pepper flavours. Serve on sourdough and add broccoli for a colourful, veget…</p>
+          <p class="user-name">USER&nbsp;FULL&nbsp;NAME</p>
+      </div>
+
+    </div>
     </section>
 
 
