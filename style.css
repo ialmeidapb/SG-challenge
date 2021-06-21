@@ -319,15 +319,24 @@ li {
 .our-menu-head a {
   background-color: #ffdac9;
   color: #333333;
-  font: normal normal bold 18px/52px DIN Condensed;
+  font: normal normal bold 18px DIN Condensed;
   letter-spacing: 0.18px;
   text-align: left;
   text-decoration: none;
 }
 
+.our-menu-head{
+  position: absolute;
+}
+
 .btn-our-menu {
   padding-top: 120px;
   justify-content: center;
+}
+
+.btn-our-menu a{
+  margin-left: 650px;
+  position: absolute;
 }
 
 .starters {
@@ -350,8 +359,8 @@ li {
 }
 
 .r-title1{
-  top: 0px;
-left: 0px;
+padding-top: 91px;
+padding-left: 147px;
 width: 100px;
 height: 35px;
 text-align: left;
@@ -361,8 +370,8 @@ color: #333333;
 }
 
 .r-title2{
-  top: 33px;
-left: 0px;
+padding-top: 10px;
+padding-left: 134px;
 width: 161px;
 height: 62px;
 text-align: left;
@@ -380,6 +389,7 @@ text-decoration:  #ffdac9 line-through;
   text-align: left;
   text-decoration: none;
   font-size: 18px;
+  margin-left: 147px;
 }
 
 .r-link-btn{
