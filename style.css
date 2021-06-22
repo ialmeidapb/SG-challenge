@@ -12,6 +12,8 @@ li {
   list-style: none;
 }
 
+/* HEADER E NAVBAR */
+
 .header {
   top: 0.1013154610991478px;
   left: 0px;
@@ -72,6 +74,8 @@ li {
   margin: 0 40px;
 }
 
+/* MAINPAGE SECTION */
+
 .mainpic {
   opacity: 1;
   top: 0.10131599754095078px;
@@ -114,6 +118,8 @@ li {
 
   margin-top: 0px;
 }
+
+/* OUR COMMUNITY SECTION */
 
 .community-section {
   height: 650px;
@@ -246,6 +252,8 @@ li {
   height: 321px;
 }
 
+/* LOCATION SECTION - CSS */
+
 .map {
   padding-top: 129px;
   left: 0px;
@@ -291,6 +299,8 @@ li {
   color: #333333;
   opacity: 1;
 }
+
+/* OUR MENU SECTION - CSS */
 
 .our-menu {
   top: 2348px;
@@ -348,6 +358,8 @@ li {
   height: 894px;
   background: #f8f8f8 0% 0% no-repeat padding-box;
 }
+
+/* POPULAR RECIPES SECTION */
 
 .recipes {
   top: 2348px;
@@ -507,7 +519,7 @@ li {
   left: 200px;
   width: 110px;
   height: 110px;
-
+  background: rgba(0, 0, 0, 0.2);
   opacity: 1;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
@@ -578,6 +590,7 @@ li {
   width: 72px;
   height: 72px;
   opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
 }
@@ -652,7 +665,356 @@ li {
   height: 60px;
 }
 
-/* Animation */
+.third-card {
+  margin-top: 211px;
+  margin-left: 25px;
+  width: 240px;
+  height: 450px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 30px #0000000a;
+  opacity: 1;
+}
+
+.serving-box-card3 {
+  position: absolute;
+  top: 3637px;
+  left: 861px;
+  width: 72px;
+  height: 72px;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.serving-box-card3-title1 {
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 13px;
+  width: 45px;
+  height: 35px;
+  text-align: center;
+  font: normal normal bold 35px/45px DIN Condensed;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.serving-box-card3-title2 {
+  position: absolute;
+  padding-left: 11px;
+  padding-top: 35px;
+  width: 54px;
+  height: 16px;
+  text-align: center;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.go-btn3 {
+  position: absolute;
+  top: 3815px;
+  left: 1040px;
+  width: 60px;
+  height: 60px;
+}
+
+.card3-difficulty {
+  width: 49px;
+  height: 14px;
+  text-align: left;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #767676;
+  opacity: 0.56;
+  padding-right: 324.5px;
+}
+
+.card3-pic {
+  width: 240px;
+  height: 240px;
+}
+
+.card3-stamp {
+  position: absolute;
+  top: 3587px;
+  left: 1006px;
+  width: 83px;
+  height: 79px;
+}
+
+.fourth-card {
+  margin-top: 65px;
+  margin-left: 25px;
+  width: 240px;
+  height: 450px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 30px #0000000a;
+  opacity: 1;
+}
+
+.card4-pic {
+  top: 3519px;
+  left: 1071px;
+  width: 240px;
+  height: 240px;
+  opacity: 1;
+}
+
+.serving-box-card4 {
+  position: absolute;
+  top: 3489px;
+  left: 1125px;
+  width: 72px;
+  height: 72px;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.serving-box-card4-title1 {
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 13px;
+  width: 45px;
+  height: 35px;
+  text-align: center;
+  font: normal normal bold 35px/45px DIN Condensed;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.serving-box-card4-title2 {
+  position: absolute;
+  padding-left: 11px;
+  padding-top: 35px;
+  width: 54px;
+  height: 16px;
+  text-align: center;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.go-btn4 {
+  position: absolute;
+  top: 3669px;
+  left: 1305px;
+  width: 60px;
+  height: 60px;
+}
+
+.card4-title {
+  width: 197px;
+  height: 56px;
+  text-align: left;
+  font: normal normal bold 22px/25px DIN Condensed;
+  letter-spacing: 0.44px;
+  color: #333333;
+  opacity: 1;
+  padding-top: 28.5px;
+  padding-left: 24px;
+}
+
+.card4-text {
+  width: 197px;
+  height: 86px;
+  text-align: left;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+  padding-top: 5px;
+  padding-left: 24px;
+}
+
+.left-arrow {
+  width: 49px;
+  height: 20px;
+}
+
+.right-arrow {
+  width: 49px;
+  height: 20px;
+}
+
+.arrows {
+  padding-top: 67px;
+  padding-left: 1106px;
+  margin-bottom: 58px;
+}
+
+/* COLLABORATE SECTION - CSS */
+
+.collaborate {
+  top: 4209px;
+  left: 0px;
+  width: 100%;
+  height: 462px;
+  margin-top: 80px;
+  background: #ffdac9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.collaborate-title1 {
+  top: 0px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 151px;
+  height: 35px;
+  text-align: left;
+  font: normal normal bold 35px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #333333;
+}
+
+.collaborate-title2 {
+  top: 33px;
+  left: 0px;
+  height: 62px;
+  text-align: left;
+  font: normal normal bold 62px/52px DIN Condensed;
+  letter-spacing: 0px;
+  color: #333333;
+  text-decoration: line-through #ffffff;
+}
+
+.collaborate-header {
+  padding-top: 83px;
+  padding-left: 147px;
+}
+
+.collaborate-text {
+  top: 4406px;
+  left: 136px;
+  width: 322px;
+  height: 169px;
+  text-align: left;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+}
+
+.collaborate-paragraph {
+  padding-top: 19px;
+  padding-left: 6px;
+  
+}
+
+.collaborate1 {
+  display: flex;
+}
+
+.collab{
+  padding-left: 146px;
+  display: flex;
+}
+
+.bg-detail {
+  padding-top: 6px;
+  padding-left: 667px;
+  width: 134px;
+  height: 98px;
+}
+
+
+
+.collab form {
+  padding-left: 300px;
+  display: flex;
+  text-align: left;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #333333;
+  opacity: 1;
+}
+
+.contact-us input {
+  background-color: transparent;
+  width: 200px;
+  border: 0;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+}
+
+.contact-us select {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+  text-align: left;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #333333;
+  opacity: 1;
+  width: 200px;
+}
+
+.part1-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+.part2-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us ::placeholder {
+  text-align: left;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 0.3;
+}
+
+
+
+
+
+
+.submit-button {
+  background-color: #333333;
+  border: none;
+  color: #ffdac9;
+  padding-top: 8.5px;
+  padding-left: 16.6px;
+  padding-bottom: 3.5px;
+  padding-right: 17.4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: normal normal bold 18px DIN Condensed;
+  letter-spacing: 0.18px;
+  width: 62px;
+  height: 30px;
+}
+.button {
+  
+  padding-left: 136px;
+  width: 64px;
+  height: 30px;
+  
+}
+
+/* FOOTER */
+
+footer{
+  top: 4670px;
+  left: 0px;
+  width: 100%;
+  height: 323px;
+  background: #333333 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* Animation of OUR COMMUNITY SECTION and OUR MENU SECTION - CSS */
 
 [data-anime] {
   opacity: 0;

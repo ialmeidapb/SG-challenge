@@ -1,4 +1,4 @@
-//lodash debounce for otimization of the ativation of the target
+//lodash debounce - otimization for any ativation of the target
 
 function debounce(func, wait, immediate) {
   let timeout;
@@ -17,16 +17,17 @@ function debounce(func, wait, immediate) {
 
 const target = document.querySelectorAll("[data-anime]");
 const animationClass = "animate";
-const animationClassPassed = "animate-passed";
 
-// OUR COUMMINTY AND OUR MENU ANIMATIONS JS CODE
+
+// OUR COUMMINTY SECTION AND OUR MENU SECTION ANIMATIONS - JS
 
 function animeScroll() {
   const windowTop = window.pageYOffset + (window.innerHeight * 3) / 4;
   target.forEach(function (element) {
     if (windowTop > element.offsetTop) {
       element.classList.add(animationClass);
-    } else {
+    } 
+    else {
       element.classList.remove(animationClass);
     }
   });
