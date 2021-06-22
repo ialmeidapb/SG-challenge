@@ -27,6 +27,7 @@ li {
   justify-content: space-around;
   position: fixed;
   margin-top: 10px;
+  z-index: 20;
 }
 
 .request-button {
@@ -35,7 +36,10 @@ li {
   width: 30px;
   height: 100px;
   position: fixed;
+  z-index: 20;
 }
+
+
 
 .nav-bar-ul {
   background-color: transparent;
