@@ -157,7 +157,7 @@ li {
 .community-section a {
   background-color: #ffdac9;
   color: #333333;
-  font: normal normal bold 18px/52px DIN Condensed;
+  font: normal normal bold 18px DIN Condensed;
   letter-spacing: 0.18px;
   text-align: left;
   text-decoration: none;
@@ -172,6 +172,7 @@ li {
   height: 116px;
   letter-spacing: 0.44px;
   color: #333333;
+  padding-top: 73px;
 }
 
 .logo a {
@@ -333,6 +334,11 @@ li {
 .btn-our-menu a {
   margin-left: 650px;
   position: absolute;
+}
+
+.comm-btn a {
+  position: absolute;
+  margin-top: 10px;
 }
 
 .starters {
@@ -544,14 +550,113 @@ li {
   left: 443px;
   width: 192px;
   height: 192px;
-  
+}
+
+.second-card {
+  margin-top: 65px;
+  margin-left: 25px;
+  width: 240px;
+  height: 450px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 30px #0000000a;
+  opacity: 1;
+}
+
+.card2-pic {
+  top: 3519px;
+  left: 541px;
+  width: 240px;
+  height: 240px;
+  background: #ffc7b2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.serving-box-card2 {
+  position: absolute;
+  top: 3489px;
+  left: 595px;
+  width: 72px;
+  height: 72px;
+  opacity: 1;
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+
+.serving-box-card2-title1 {
+  position: absolute;
+  padding-top: 12px;
+  padding-left: 13px;
+  width: 45px;
+  height: 35px;
+  text-align: center;
+  font: normal normal bold 35px/45px DIN Condensed;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.serving-box-card2-title2 {
+  position: absolute;
+  padding-left: 11px;
+  padding-top: 35px;
+  width: 54px;
+  height: 16px;
+  text-align: center;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.card2-title {
+  width: 202px;
+  height: 56px;
+  text-align: left;
+  font: normal normal bold 22px/25px DIN Condensed;
+  letter-spacing: 0.44px;
+  color: #333333;
+  opacity: 1;
+  padding-top: 28.5px;
+  padding-left: 24px;
+}
+
+.card2-text {
+  width: 197px;
+  height: 81px;
+  text-align: left;
+  font: normal normal normal 15px/20px Gill Sans;
+  letter-spacing: 0.15px;
+  color: #767676;
+  opacity: 1;
+  padding-top: 8px;
+  padding-left: 24px;
+}
+
+.user-name2 {
+  width: 76px;
+  height: 14px;
+  text-align: right;
+  font: normal normal bold 14px/42px DIN Condensed;
+  letter-spacing: 0.14px;
+  color: #333333;
+  opacity: 1;
+  padding-top: 16px;
+  padding-left: 165px;
+}
+
+.go-btn2 {
+  position: absolute;
+  top: 3669px;
+  left: 775px;
+  width: 60px;
+  height: 60px;
 }
 
 /* Animation */
 
 [data-anime] {
   opacity: 0;
-  transition: 0.7s;
+  transition: 1.5s;
 }
 
 [data-anime="bottom"] {
