@@ -448,6 +448,7 @@ li {
 
 .cards {
   display: flex;
+  
 }
 
 .first-card {
@@ -834,6 +835,9 @@ li {
   padding-top: 5px;
   padding-left: 24px;
 }
+
+
+
 
 .left-arrow {
   width: 49px;

@@ -1,3 +1,47 @@
+//SMOOTH SCROLL JS
+
+const menuItems = document.querySelectorAll('.navbar a[href^="#"]');
+
+
+menuItems.forEach(item=>{
+    item.addEventListener('click', scrollToIdOnClick);
+})
+
+
+//function to get references
+
+function scrollToIdOnClick(event){
+    event.preventDefault();
+    const to= getScrollTopByHref(event.target)
+    
+
+   scrollToPosition(to);
+
+}
+
+
+// function to deal with the click on the navbar
+
+function getScrollTopByHref(element){
+    const id = element.getAttribute('href');
+    return document.querySelector(id).offsetTop
+
+}
+
+// smooth scroll function
+
+function scrollToPosition(to){
+    window.scroll({
+        top: to,
+        behavior: "smooth",
+    });
+}
+
+//----------------------------------------------------
+
+//SECTIONS ANIMATIONS
+
+
 //lodash debounce - otimization for any ativation of the target
 
 function debounce(func, wait, immediate) {
