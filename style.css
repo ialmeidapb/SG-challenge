@@ -493,11 +493,18 @@ li {
   display: flex;
   opacity: 1;
   width: 100%;
+  scroll-snap-align: start ;
+  pointer-events: none;
+  
   
 }
 
 .slider-recipes {
   display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   
 }
 
@@ -508,7 +515,9 @@ li {
   height: 560px;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 20px 30px #0000000a;
-  opacity: 1;
+  opacity: 1; 
+  
+  
 }
 
 .card1-pic {
@@ -516,6 +525,7 @@ li {
   left: 146px;
   width: 370px;
   height: 370px;
+  
 }
 
 .card1-difficulty {
@@ -567,7 +577,7 @@ li {
 }
 
 .serving-box {
-  position:absolute;
+  position: absolute;
   top: 3489px;
   left: 200px;
   width: 110px;
@@ -609,6 +619,8 @@ li {
   width: 60px;
   height: 60px;
 }
+
+
 
 .chef-stamp {
   position: absolute;
@@ -903,6 +915,10 @@ li {
   width: 100%;
   height: auto;
   background: #ffffff 0% 0% no-repeat padding-box;
+  scroll-snap-align: start ;
+  pointer-events: none;
+  
+  
 }
 
 .page2-first-card {
