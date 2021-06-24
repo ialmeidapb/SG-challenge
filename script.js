@@ -1,3 +1,4 @@
+
 //SMOOTH SCROLL JS
 
 const menuItems = document.querySelectorAll('.navbar a[href^="#"]');
@@ -32,7 +33,7 @@ function getScrollTopByHref(element){
 
 function scrollToPosition(to){
     window.scroll({
-        top: to,
+        top: to + 10,
         behavior: "smooth",
     });
 }
@@ -59,11 +60,13 @@ function debounce(func, wait, immediate) {
   };
 }
 
+
+// OUR COUMMINTY SECTION AND OUR MENU SECTION ANIMATIONS - JS
+
 const target = document.querySelectorAll("[data-anime]");
 const animationClass = "animate";
 
 
-// OUR COUMMINTY SECTION AND OUR MENU SECTION ANIMATIONS - JS
 
 function animeScroll() {
   const windowTop = window.pageYOffset + (window.innerHeight * 3) / 4;
@@ -85,3 +88,34 @@ window.addEventListener(
     animeScroll();
   }, 200)
 );
+
+
+//----------------------------------------------
+
+// SCROLL SPY - JS
+
+
+
+window.addEventListener('DOMContentLoaded', () => {
+
+	const observer = new IntersectionObserver(entries => {
+		entries.forEach(entry => {
+			const id = entry.target.getAttribute('id');
+			if (entry.intersectionRatio > 0) {
+				document.querySelector(`.section-nav a[href="#${id}"]`).parentElement.classList.add('active');
+			} else {
+				document.querySelector(`.section-nav a[href="#${id}"]`).parentElement.classList.remove('active');
+			}
+		});
+	});
+
+	// Track all sections that have an `id` applied
+	document.querySelectorAll('section[id]').forEach((section) => {
+		observer.observe(section);
+	});
+	
+});
+
+
+
+
